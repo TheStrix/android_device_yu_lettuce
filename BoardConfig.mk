@@ -43,8 +43,9 @@ TARGET_TAP_TO_WAKE_NODE := "/proc/touchpanel/double_tap_enable"
 TARGET_CPU_CORTEX_A53 := true
 
 # GPS
-TARGET_GPS_HAL_PATH := $(DEVICE_PATH)/gps
-TARGET_NO_RPC := true
+USE_DEVICE_SPECIFIC_LOC_API := true
+USE_DEVICE_SPECIFIC_GPS := true
+#TARGET_NO_RPC := true
 
 # Lights
 TARGET_PROVIDES_LIBLIGHT := true
