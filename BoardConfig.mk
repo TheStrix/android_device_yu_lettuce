@@ -37,6 +37,7 @@ USE_DEVICE_SPECIFIC_CAMERA := true
 
 # CMHW
 BOARD_HARDWARE_CLASS += $(DEVICE_PATH)/cmhw/src
+TARGET_TAP_TO_WAKE_NODE := "/proc/touchpanel/double_tap_enable"
 
 # CPU
 TARGET_CPU_CORTEX_A53 := true
