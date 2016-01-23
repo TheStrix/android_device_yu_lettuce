@@ -3,9 +3,7 @@
 # device                                          mount_point     fstype  mount_flags                                         fs_flags    twrp_flags
 /dev/block/bootdevice/by-name/system              /system         ext4    defaults                                            defaults
 /dev/block/bootdevice/by-name/cache               /cache          ext4    noatime,nosuid,nodev,barrier=1,noauto_da_alloc      defaults
-/dev/block/bootdevice/by-name/cache               /cache          f2fs    rw,nosuid,nodev,noatime,nodiratime,inline_xattr     defaults
 /dev/block/bootdevice/by-name/userdata            /data           ext4    noatime,nosuid,nodev,barrier=1,noauto_da_alloc      defaults    twrp=length=-16384
-/dev/block/bootdevice/by-name/userdata            /data           f2fs    rw,nosuid,nodev,noatime,nodiratime,inline_xattr     defaults    twrp=length=-16384
 /dev/block/bootdevice/by-name/boot                /boot           emmc    defaults                                            defaults
 /dev/block/bootdevice/by-name/modem               /firmware       vfat    ro                                                  defaults    twrp=display="Firmware";mounttodecrypt
 /dev/block/bootdevice/by-name/misc                /misc           emmc    defaults                                            defaults
