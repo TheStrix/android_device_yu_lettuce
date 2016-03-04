@@ -7,6 +7,9 @@ persist.audio.fluence.speaker=true
 # set roaming indicator to always show
 ro.config.always_show_roaming=true
 
+# Disable CPP duplication mode
+persist.camera.cpp.duplication=false
+
 # Display
 ro.sf.lcd_density=320
 
