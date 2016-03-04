@@ -47,7 +47,7 @@ TARGET_TAP_TO_WAKE_NODE := "/sys/devices/soc.0/78b9000.i2c/i2c-5/5-0040/gesture"
 TARGET_CPU_CORTEX_A53 := true
 
 # GPS
-TARGET_GPS_HAL_PATH := $(DEVICE_PATH)/gps
+USE_DEVICE_SPECIFIC_GPS := true
 TARGET_NO_RPC := true
 
 # Lights
